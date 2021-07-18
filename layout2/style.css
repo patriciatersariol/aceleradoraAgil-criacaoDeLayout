@@ -1,0 +1,169 @@
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  --cor-principal: #6473ba;
+  --cor-secundaria: #b2291f;
+}
+
+header {
+  background-color: var(--cor-principal);
+  height: 5rem;
+}
+
+.menu-principal {
+  background-color: var(--cor-secundaria);
+  height: 3rem;
+}
+
+.menu-principal ul {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  list-style: none;
+}
+
+.menu-principal ul li a {
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: black;
+}
+
+.menu-principal ul li a:hover {
+  color: azure;
+}
+
+.container-conteudo {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+.conteudo {
+  background-color: rgb(214, 211, 211);
+  width: 70%;
+  max-height: 100%;
+}
+
+form {
+  margin: 3rem;
+  padding: 1rem;
+  background-color: rgb(233, 229, 229);
+  border-radius: 15px;
+}
+
+form div {
+  margin: 1rem;
+  width: 25rem;
+}
+
+form input,
+textarea {
+  margin-top: 4px;
+  height: 1.8rem;
+  font-size: 0.9rem;
+  border-radius: 5px;
+  border: none;
+}
+
+form input:not([type="checkbox"]) {
+  width: 30rem;
+}
+
+form textarea {
+  height: 5rem;
+}
+
+form input::placeholder,
+textarea::placeholder {
+  padding-left: 5px;
+  color: rgb(182, 180, 180);
+}
+
+form input:focus,
+form textarea:focus {
+  outline: 0;
+}
+
+.termos {
+  display: flex;
+  align-items: center;
+}
+
+.termos a {
+  color: #2e7df6;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+button {
+  width: 30rem;
+  height: 2rem;
+  border-radius: 4px;
+  border: none;
+  background-color: var(--cor-principal);
+  color: black;
+  font-size: 1rem;
+}
+
+button:hover {
+  font-weight: bold;
+  background-color: var(--cor-secundaria);
+  color: white;
+}
+
+.navegacao-esquerda {
+  background-color: #ddd;
+  width: 15%;
+  max-height: 100%;
+  text-align: center;
+}
+
+.navegacao-esquerda ul {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  list-style: none;
+  text-decoration: none;
+}
+
+.navegacao-esquerda ul li {
+  font-size: 1rem;
+  margin-top: 20px;
+}
+
+.navegacao-esquerda a {
+  text-decoration: none;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: black;
+  padding: 0.3rem 2rem;
+  border-radius: 4px;
+  background-color: var(--cor-principal);
+}
+
+.navegacao-esquerda a:hover {
+  background-color: var(--cor-secundaria);
+  color: #ddd;
+  font-weight: bold;
+}
+
+.coluna-direita {
+  background-color: #ddd;
+  width: 15%;
+  max-height: 100%;
+}
+
+footer {
+  display: flex;
+  background-color: var(--cor-principal);
+  height: 5rem;
+  justify-content: center;
+  align-items: center;
+  color: #ddd;
+  padding: auto;
+}

@@ -1,0 +1,33 @@
+.container {
+  width: 750px;
+  margin: 20px auto;
+  max-height: 100%;
+}
+
+header {
+  background-color: #7e81d3;
+  height: 100px;
+}
+
+.container-conteudo {
+  display: flex;
+}
+
+.menu-esquerdo {
+  background-color: #d35e5a;
+  width: 150px;
+  height: 250px;
+}
+
+.conteudo {
+  background-color: #9fc7ca;
+  width: 450px;
+  min-height: 350px;
+  max-height: 100%;
+}
+
+.menu-direito {
+  background-color: #77ad6b;
+  width: 150px;
+  height: 250px;
+}
